@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "site_setsettings",
+  "info": {
+    "singularName": "site-setsetting",
+    "pluralName": "site-setsettings",
+    "displayName": "site-setsettings"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Site_Name": {
+      "type": "string"
+    },
+    "CopyWrite": {
+      "type": "string"
+    }
+  }
+}

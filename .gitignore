@@ -1,0 +1,27 @@
+# Dependencies and generated builds
+**/node_modules/
+**/.next/
+**/.strapi/
+**/.tmp/
+**/dist/
+**/build/
+**/coverage/
+**/*.tsbuildinfo
+**/next-env.d.ts
+
+# Local configuration and credentials
+**/.env
+**/.env.*
+!**/.env.example
+**/*.pem
+**/*.key
+
+# Local media and logs
+backend/public/uploads/
+*.log
+npm-debug.log*
+
+# Editor and operating system files
+.DS_Store
+Thumbs.db
+.vscode/
